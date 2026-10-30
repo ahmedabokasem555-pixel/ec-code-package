@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Kasem"
+    given-names: "Ahmed"
+title: "EC-CODE: An Open-Source Python Package for Prior-Conditional Estimation of Chlorine Production in Membrane-Free NaCl Electrolysis"
+version: 2.5.5
+doi: 10.5281/zenodo.23822823
+date-released: 2026-10-30

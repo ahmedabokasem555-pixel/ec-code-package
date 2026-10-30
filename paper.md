@@ -15,7 +15,7 @@ affiliations:
 date: 30 October 2026
 bibliography: paper.bib
 ---
-
+DOI: 10.5281/zenodo.23822823
 # Summary
 
 EC-CODE is a Python package designed to estimate the current efficiency of chlorine production (x1) in membrane-free NaCl electrolysis cells. The package combines a single lumped thermal energy balance with grid-based Bayesian inference, utilizing DPD free-chlorine readings, charge, and conductivity data. It addresses the challenge of separating true chlorine production from losses due to volatilization and cathodic reduction. The software is designed for researchers conducting small-scale electrochemical experiments who require a transparent, reproducible, and lightweight estimation tool.

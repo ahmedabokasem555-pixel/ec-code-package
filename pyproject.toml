@@ -1,25 +1,22 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "ec-code"
-version = "2.5.2"
+version = "2.5.6"
 description = "An open-source Python package for prior-conditional estimation of chlorine production in membrane-free NaCl electrolysis."
 readme = "README.md"
-requires-python = ">=3.10"
-license = {text = "MIT"}
+requires-python = ">=3.8"
 authors = [
-    {name = "Ahmed Kasem", email = "ahmedabokasem555@gmail.com"}
+    { name = "Ahmed Kasem" }
 ]
-keywords = ["electrochemistry", "chlorine", "NaCl", "bayesian", "open-source"]
 dependencies = [
-    "numpy>=1.21",
-    "scipy>=1.7",
-    "pandas>=1.3",
-    "matplotlib>=3.4"
+    "numpy",
+    "scipy",
+    "pymc",
+    "pytest"
 ]
 
-[project.urls]
-Homepage = "https://github.com/ahmedabokasem555-pixel/EC-CODE-NaCl-Electrolysis"
-Repository = "https://github.com/ahmedabokasem555-pixel/EC-CODE-NaCl-Electrolysis"
+[tool.setuptools]
+py-modules = ["chlorine", "inference", "thermal", "utils"]

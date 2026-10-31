@@ -20,3 +20,4 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["chlorine", "inference", "thermal", "utils"]
+package-dir = {"" = "."}

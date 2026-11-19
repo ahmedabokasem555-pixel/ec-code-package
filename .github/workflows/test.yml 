@@ -8,5 +8,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-      - run: pip install pytest numpy scipy pandas scipy pandas
-      - run: pytest
+      - run: |
+    pip install pytest
+    pip install numpy
+    pip install scipy
+    pip install pandas

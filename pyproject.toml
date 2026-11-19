@@ -25,3 +25,5 @@ dev = [
 
 [tool.setuptools]
 py-modules = ["chlorine", "inference", "thermal", "utils", "simulate"]
+[tool.pytest.ini_options]
+pythonpath = ["."]

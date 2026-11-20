@@ -1,14 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it using the metadata from this file."
 authors:
   - family-names: "Kasem"
     given-names: "Ahmed"
-    orcid: "https://orcid.org/0009-0002-1395-5378"
+    orcid: "https://orcid.org/0009-0002-0000-0000"
 title: "EC-CODE: An Open-Source Python Package for Prior-Conditional Estimation of Chlorine Production in Membrane-Free NaCl Electrolysis"
 version: 2.5.8
-# TODO after publishing the v2.5.8 GitHub release: replace with the DOI Zenodo assigns to v2.5.7
-# (10.5281/zenodo.24377879 is v2.5.7).
-doi: 10.5281/zenodo.24377879
+doi: <NEW_ZENODO_DOI_FOR_v2.5.8>
 date-released: 2026-11-20
 repository-code: "https://github.com/ahmedabokasem555-pixel/ec-code-package"
 license: MIT

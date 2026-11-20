@@ -104,4 +104,3 @@ validate_columns(df, ["t_s", "T_C"])
 ## Citation and licence
 
 See `CITATION.cff`. MIT licence (`LICENSE`). Contributions: see `CONTRIBUTING.md`.
-

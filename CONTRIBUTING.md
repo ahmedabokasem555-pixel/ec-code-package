@@ -1,13 +1,7 @@
 # Contributing to EC-CODE
 
-We welcome contributions! 
+1. Fork the repository and create a branch (`git checkout -b feature/your-feature`).
+2. Install with `pip install ".[dev]"` and run `pytest` before and after your change.
+3. Open a pull request describing the change. Add or update tests for any numerical change.
 
-## How to contribute
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Create a new Pull Request.
-
-## Reporting Issues
-Please use the GitHub Issues tab to report bugs or request features. 
+Report bugs and feature requests on the GitHub Issues tab.

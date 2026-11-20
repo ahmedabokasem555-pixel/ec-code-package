@@ -1,29 +1,23 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "ec-code"
-version = "2.5.7"
-description = "Prior-conditional estimation of chlorine production in membrane-free NaCl electrolysis."
+version = "2.5.8"
+description = "An open-source Python package for prior-conditional estimation of chlorine production in membrane-free NaCl electrolysis."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [
-    { name = "Ahmed Kasem", email = "ahmedabokasem555@gmail.com" }
-]
-dependencies = [
-    "numpy",
-    "scipy",
-    "pandas"
-]
+authors = [{ name = "Ahmed Kasem" }]
+dependencies = ["numpy", "scipy", "pandas"]
 
 [project.optional-dependencies]
-dev = [
-    "pytest"
-]
+dev = ["pytest"]
 
 [tool.setuptools]
 py-modules = ["chlorine", "inference", "thermal", "utils", "simulate"]
+package-dir = { "" = "." }
+
 [tool.pytest.ini_options]
-pythonpath = ["."]
+testpaths = ["tests"]

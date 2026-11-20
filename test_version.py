@@ -1,7 +1,7 @@
 import pathlib
 import re
 
-root = pathlib.Path(__file__).resolve().parent.parent
+root = pathlib.Path(__file__).resolve().parent
 
 
 def _find(path, pattern):

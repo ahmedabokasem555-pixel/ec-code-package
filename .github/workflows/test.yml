@@ -31,4 +31,3 @@ jobs:
       - name: Run tests
         run: |
           PYTHONPATH=. python -m pytest -v
-concurrency: 

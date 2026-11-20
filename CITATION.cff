@@ -3,7 +3,7 @@ message: "If you use this software, please cite it using the metadata from this 
 authors:
   - family-names: "Kasem"
     given-names: "Ahmed"
-    orcid: "https://orcid.org/0009-0002-0000-0000"
+    orcid: "https://orcid.org/0009-0002-1395-5378"
 title: "EC-CODE: An Open-Source Python Package for Prior-Conditional Estimation of Chlorine Production in Membrane-Free NaCl Electrolysis"
 version: 2.5.8
 doi: <NEW_ZENODO_DOI_FOR_v2.5.8>

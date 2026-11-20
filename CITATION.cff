@@ -5,8 +5,8 @@ authors:
     given-names: "Ahmed"
     orcid: "https://orcid.org/0009-0002-1395-5378"
 title: "EC-CODE: An Open-Source Python Package for Prior-Conditional Estimation of Chlorine Production in Membrane-Free NaCl Electrolysis"
-version: 2.5.7
+version: 2.5.8
 doi: 10.5281/zenodo.24377879
-date-released: 2026-11-19
+date-released: 2026-11-20
 repository-code: "https://github.com/ahmedabokasem555-pixel/ec-code-package"
 license: MIT
